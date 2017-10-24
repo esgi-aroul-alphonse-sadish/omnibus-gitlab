@@ -1,4 +1,5 @@
-web:
+version: "2"
+services:
   image: 'gitlab/gitlab-ce:latest'
   restart: always
   hostname: 'gitlab.example.com'
